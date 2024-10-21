@@ -1,0 +1,6 @@
+for i in components composition core docs theme utils; do
+cd  $i
+pnpm init
+cd ..
+
+done
